@@ -1,0 +1,71 @@
+.navbar {
+    background-color: #fff;
+    position: fixed;        /** keeps it places at the top of page when scrolling */
+    top: 0;                 /** sticks it to the top of the page */
+    width: 100%;            /** takes up the entire width of the page */
+}
+
+/*! grabs all the li elements inside navbar class  */
+.navbar li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+/*! grabs all the a elements inside the navbar class */
+.navbar a {
+    text-decoration: none; /** removes the underline from text */
+    color: black;
+}
+
+
+/*! because we used a class you use a dot selector */
+.banner {
+    background-color: #4d00ff;
+    color: #fff;
+    margin-top: 50px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/*! ID style selector uses # */
+#small-brandon {
+    width: 100px;
+    height: 100px;
+    filter: drop-shadow(1px 1px 1px black);  /** adds a drop shadow to this specific item */
+}
+
+.jenkins-section {
+    padding: 20px 50px;
+}
+
+/*! ID of brandon */
+#brandon {
+    color: #4d00ff;
+    font-size: 100px;
+}
+
+/*! this grabs all the unordered lists within the id of Greets */
+#greets ul {  
+    list-style-type: none;
+}
+
+/*! places an image inside the DIV container */
+.avatar {
+    background-image: url(../images/blandon.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: inline-block;  /** google this */
+    vertical-align: middle; /** google this */
+}
+
+a.blue {
+    color: blue;
+}
+
+/*! a class should be reusable any class with bold will be bold */
+.bold {
+    font-weight: 900;
+}
+

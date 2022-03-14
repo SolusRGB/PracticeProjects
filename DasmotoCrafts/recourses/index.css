@@ -1,0 +1,43 @@
+/* makes these classes and id the font used throughout the document  */
+
+#header, #art-supplies, .pricing {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/** header section */
+#header {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg);
+    font-size: 40px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+/** Section headers sets the entire sections CSS */
+#art-supplies h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+/** sets the h2 headers inside the brushes class */
+#brushes h2 {
+    background-color: mediumspringgreen;
+}
+
+
+#frames h2 {
+    background-color: lightcoral;
+}
+
+#paint h2 {
+    background-color: skyblue;
+}
+
+.pricing {
+    font-weight:bold;
+    color: blue;
+}
