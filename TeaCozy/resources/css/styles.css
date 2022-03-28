@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: rgb(255, 106, 0);
+  background-color: black;
+  opacity: 0.9;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  z-index: 1;
+  top: 0;
+}
